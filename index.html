@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Cafe Restaurant</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+        }
+
+        nav a {
+            color: #fff;
+            padding: 15px 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+            color: #333;
+        }
+
+        section {
+            padding: 50px;
+            margin: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+
+        .menu-items {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .menu-item {
+            width: 200px;
+            margin: 20px;
+            text-align: center;
+            border: 2px solid #ddd;
+            padding: 10px;
+            border-radius: 8px;
+        }
+
+        .menu-item img {
+            width: 100%;
+            border-radius: 8px;
+        }
+
+        .menu-item p {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+
+        .reservation-form {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #f4f4f4;
+            padding: 30px;
+            border-radius: 10px;
+        }
+
+        .reservation-form input, .reservation-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .testimonial {
+            background-color: #f4f4f4;
+            margin: 20px 0;
+            padding: 30px;
+            border-radius: 10px;
+        }
+
+        .testimonial p {
+            font-style: italic;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+        }
+
+        .map-container {
+            width: 100%;
+            height: 400px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to Connaught Club House</h1>
+        <p>Your favorite place for delicious meals and cozy ambiance.</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#menu">Menu</a>
+        <a href="#reservation">Reservation</a>
+        <a href="#location">Location</a>
+        <a href="#testimonials">Testimonials</a>
+    </nav>
+    <!-- ambiance -->
+    <section id="ambiance">
+        <h2>Our ambiance</h2>
+        <div class="menu-items">
+            <div class="menu-item">
+                <img src="https://b.zmtcdn.com/data/pictures/6/19295106/62a55cc967b11320c142f6e423e0956d.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A">
+            </div>
+            <div class="menu-item">
+                <img src="https://b.zmtcdn.com/data/pictures/6/19295106/5c2a6edfbd0ab8d525f5638dde8ef891.jpg?fit=around|300:273&crop=300:273;*,*">
+               
+            </div>
+            <div class="menu-item">
+                <img src="https://b.zmtcdn.com/data/pictures/6/19295106/e792cd610d6133231123a13d87a214fa.jpg?fit=around|300:273&crop=300:273;*,*"></p>
+               
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu">
+        <h2>Our Famous dishes</h2>
+        <div class="menu-items">
+            <div class="menu-item">
+                <img src="https://s4.scoopwhoop.com/dan/spicyfood1/15.jpg" alt="Dish 1">
+                <p><strong>Dish 1</strong> - $11.75</p>
+                <p>A delicious meal made with fresh ingredients.</p>
+            </div>
+            <div class="menu-item">
+                <img src="https://tse1.mm.bing.net/th?id=OIP.OLOGZ9ZypNVFsQ1Hzmg-iQHaFp&pid=Api&P=0&h=180" alt="Dish 2">
+                <p><strong>Dish 2</strong> - $13.99</p>
+                <p>A classic favorite with a unique twist.</p>
+            </div>
+            <div class="menu-item">
+                <img src="https://imgs.search.brave.com/iY9W3wZkcmGqJ2oNMKazUxjgQiM5P6E1IilMr1K5yqI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/aG9saWRpZnkuY29t/L2ltYWdlcy9jbXN1/cGxvYWRzL2NvbXBy/ZXNzZWQvbWl4ZWQt/c2VhZm9vZC1wYWVs/bGFfMjAxODEyMjcx/MzM5NTguanBlZw" alt="Dish 3">
+                <p><strong>Dish 3</strong> - $14.48</p>
+                <p>Perfect for sharing, full of flavor!</p>
+            </div>
+        </div>
+    </section>
+    <!-- Menu Section -->
+    <section id="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-items">
+            <div class="menu-item">
+                <img src="https://b.zmtcdn.com/data/menus/106/19295106/9f081aa9915b5f44dd3ad9de6bafe3b9.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A" alt="Dish 1">
+                
+            </div>
+            <div class="menu-item">
+                <img src="https://b.zmtcdn.com/data/menus/106/19295106/b311284b49b2d164289b96796dae4a9c.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A" alt="Dish 2">
+                
+            </div>
+            <div class="menu-item">
+                <img src="https://b.zmtcdn.com/data/menus/106/19295106/c795c428e1bf079a527012ec724c3f44.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A"
+            </div>
+        </div>
+    </section>
+
+    <!-- Reservation Section -->
+    <section id="reservation">
+        <h2>Make a Reservation</h2>
+        <form class="reservation-form">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <label for="date">Date</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="time">Time</label>
+            <input type="time" id="time" name="time" required>
+
+            <label for="message">Message (optional)</label>
+            <textarea id="message" name="message" rows="4" placeholder="Any special requests?"></textarea>
+
+            <button type="submit">Reserve Table</button>
+        </form>
+    </section>
+
+    <!-- Location Section -->
+    <section id="location">
+        <h2>Find Us</h2>
+        <div class="map-container">
+            <!-- Embed Google Maps -->
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d233673.34879628724!2d-74.0060!3d40.7128!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a06d1a84893%3A0xf61b9eb5de5048c6!2sNew%20York!5e0!3m2!1sen!2sus!4v1676529282929!5m2!1sen!2sus"
+                width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials">
+        <h2>What Our Customers Say</h2>
+        <div class="testimonial">
+            <p>"Absolutely love this place! The food is delicious and the service is excellent. Highly recommend!"</p>
+            <footer>- Mel Gibson</footer>
+        </div>
+        <div class="testimonial">
+            <p>"It’s a great experience. The ambiance is very welcoming and charming. Amazing wines, food and service."</p>
+            <footer>-Chris Gayle</footer>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 Connaught Club House Restaurant. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
